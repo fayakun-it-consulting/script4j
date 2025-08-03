@@ -7,30 +7,30 @@
     "author": "Pavel Kastornyy <pavelkastornyy@gmail.com>",
     "license": "GNU General Public License, version 2, with the Classpath Exception",
     "devDependencies": {
-        "gulp": "4.0.0",
-        "chai": "4.2.0",
         "@types/chai": "4.1.7",
-        "mocha": "5.2.0",
-        "typescript": "3.3.3",
-        "jsonlint": "1.6.3",
-        "@types/jsdom": "12.2.2",
-        "jsdom": "13.2.0",
-        "jquery": "3.4.0",
         "@types/jquery": "3.3.29",
+        "@types/jsdom": "12.2.2",
+        "chai": "4.2.0",
+        "gulp": "^5.0.1",
+        "jquery": "^3.7.1",
+        "jsdom": "^26.1.0",
+        "jsonlint": "1.6.3",
+        "mocha": "^11.7.1",
         "reflect-metadata": "0.1.13",
         "script4j.base": "file:./../script4j.base",
-        "script4jfx.jquery": "file:./../script4jfx.jquery",
         "script4jfx.base": "file:./../script4jfx.base",
+        "script4jfx.controls": "file:./../script4jfx.controls",
         "script4jfx.graphics": "file:./../script4jfx.graphics",
-        "script4jfx.controls": "file:./../script4jfx.controls"
+        "script4jfx.jquery": "file:./../script4jfx.jquery",
+        "typescript": "3.3.3"
     },
     "dependencies": {
-        "gulp": "4.0.0",
+        "@babel/cli": "7.28.0",
         "script4j.base": "file:./../script4j.base",
-        "script4jfx.jquery": "file:./../script4jfx.jquery",
         "script4jfx.base": "file:./../script4jfx.base",
+        "script4jfx.controls": "file:./../script4jfx.controls",
         "script4jfx.graphics": "file:./../script4jfx.graphics",
-        "script4jfx.controls": "file:./../script4jfx.controls"
+        "script4jfx.jquery": "file:./../script4jfx.jquery"
     },
     "scripts": {
         "install-module": "npm install && npx jsonlint -i package.json -t '    '",

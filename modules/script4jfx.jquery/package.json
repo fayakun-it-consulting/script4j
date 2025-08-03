@@ -7,17 +7,18 @@
     "author": "Pavel Kastornyy <pavelkastornyy@gmail.com>",
     "license": "GNU General Public License, version 2, with the Classpath Exception",
     "devDependencies": {
-        "gulp": "4.0.0",
-        "typescript": "3.3.3",
-        "jsonlint": "1.6.3",
-        "@types/jsdom": "12.2.2",
-        "jsdom": "13.2.0",
-        "jquery": "3.4.0",
         "@types/jquery": "3.3.29",
-        "script4j.base": "file:./../script4j.base"
+        "@types/jsdom": "12.2.2",
+        "gulp": "^5.0.1",
+        "jquery": "^3.7.1",
+        "jsdom": "^26.1.0",
+        "jsonlint": "1.6.3",
+        "script4j.base": "file:./../script4j.base",
+        "typescript": "3.3.3"
     },
     "dependencies": {
-        "gulp": "4.0.0",
+        "@babel/cli": "7.28.0",
+        "mocha": "11.7.1",
         "script4j.base": "file:./../script4j.base"
     },
     "scripts": {

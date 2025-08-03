@@ -1,6 +1,6 @@
 {
     "name": "script4j",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Script4J is a set of libraries that allows to write programs and libraries in TypeScript/JavaScript using Java API",
     "author": "Pavel Kastornyy <pavelkastornyy@gmail.com>",
     "license": "GNU General Public License, version 2, with the Classpath Exception",
